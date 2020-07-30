@@ -11,7 +11,7 @@ namespace {
   // LCD for messages
   Zumo32U4LCD lcd = Zumo32U4LCD{};
 
-  // Gyro processing and 
+  // Interface with and update/track the gyro
   TurnSensor sensor = TurnSensor{gyro, lcd};
 } 
 
